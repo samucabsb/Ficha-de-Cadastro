@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Cadastro</title>
+	</head>
+	<body><form>
+			<h2>Ficha de Inscrição</h2>
+
+				<hr/> <br/>
+
+				Nome do candidato: <input type="text" name="firstname"> <br/> <br/>
+
+				Endereço: <input type="text" name="endereco"> <br/> <br/>
+
+				CEP: <input type="text" name="cep"> 
+
+				<select id="cidades_id" name="cidade"> 
+						<option value="CI">--Cidade--</option>								
+				</select>
+
+				<select id="uf_id" name="uf"> 
+						<option value="UF">--UF--</option>				
+				</select> <br/> <br/>
+
+				Telefone: <input type="tel" name="telefone1">
+					  <input type="tel" name="telefone2">
+					  <input type="tel" name="telefone3"> <br/> <br/>
+
+				RG: <input type="text" name="RG">
+	 			
+				CPF: <input type="text" name="CPF">
+				
+				Sexo: <input type="radio" name="sex" value="male">Mas.
+					<input type="radio" name="sex" value="male">Fem. <br/> <br/>
+				
+				Escolaridade: <select id="escolaridade_id" name="escolaridade"> 
+						<option value="SE">--Selecione--</option>				
+				</select>
+				
+				Email: <input type="email" name="e-mail"> <br/> <br/>
+				
+				Curso: <select id="curso_id" name="curso"> 
+						<option value="SE">--Selecione--</option>				
+				</select>
+	
+				Senha de Acompanhamento: <input id="senha_id" type="password" name="senha"> <br/> <br/>
+				
+				<hr/> <br/>
+				
+				<input type="submit" value="CADASTRAR">
+	</form></body>
+</html>
